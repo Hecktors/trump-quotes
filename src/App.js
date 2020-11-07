@@ -6,6 +6,7 @@ const { default: Quote } = require('./Quote')
 
 function App() {
   const [quote, savedQuotes, getQuote, saveQuote, removeQuote] = useQuote()
+  console.log(savedQuotes)
   return (
     <div className="App">
       <Quote date={quote.date} text={quote.text} />
