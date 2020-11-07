@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### unit tests
+
+1. fetch quotes
+
+- receive json
+- .quote.id: isTruthy, isString,
+- .value: isTruthy, isString ,
+- .appeared_at: isTruthy, isString
+
+2. getLocalStorage
+
+- if isTruthy then isArray
+- Array contains Objects
+- Objects containe id, value, date
